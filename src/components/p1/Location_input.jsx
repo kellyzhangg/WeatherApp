@@ -4,7 +4,7 @@ import "./Location_style.css";
 const LocationInput = props => {
     return (
         <div className = "container">
-            <form onSubmit = {props.loadLocation}>
+            <form onSubmit = {props.loadInformation}>
                 <div>
                     <input type = "text" name = "city" placeholder = " City">
                     </input>
